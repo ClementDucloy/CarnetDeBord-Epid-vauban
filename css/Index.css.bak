@@ -93,7 +93,6 @@ img.logo:hover {
 	top: 272px;
 	left: 20px;
 	font-size: 50px;
-	text-align: left;
 
 	
 }
@@ -103,7 +102,6 @@ img.logo:hover {
 	top: 272px;
 	left: 20px;
 	font-size: 50px;
-	text-align: right;
 }
 
 
