@@ -1,3 +1,10 @@
+ html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+} 
+
+
+
 .enctr {
     color: rgb(5, 22, 75);
     font-family: "Bitcount Prop Double Ink", system-ui;
@@ -71,7 +78,7 @@ img.logo:hover {
   left: 0;
   width: 100%;          
   height: 75px;         
-  background: linear-gradient(90deg, #bb6401, #ff8801);
+  background: linear-gradient(90deg, #945002, #ff8801);
   z-index: -1;
 }
 
@@ -80,37 +87,23 @@ img.logo:hover {
   height: 0px;
 }
 
-.animDebut{
-  width: 100%;
-  height: 500px;
-  background-color: #00f7ff;
-  padding: 15px 0;
- 
-}
-
-.leftarrow {
-	position: relative;
-	top: 272px;
-	left: 20px;
-	font-size: 50px;
-	text-align: left;
-
-	
-}
-
-.rightarrow {
-	position: relative;
-	top: 272px;
-	left: 20px;
-	font-size: 50px;
-	text-align: right;
-}
-
 
 .presentation {
+  display: block;
+  width: 500px;
+  margin: -4px auto 0; 
   text-align: center;
   font-family: "Dancing Script";
-  font-style: italic, bold;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px; 
+  background: linear-gradient(90deg, #383838, #494949);
+  overflow: hidden;  
+ 
 }
 
 .pres {
@@ -129,5 +122,24 @@ img.logo:hover {
   border: 20px;
 }
 
+.backgroundI {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background: linear-gradient(80deg, #218496, #002d70);
+  z-index: -1;
+}
+
+
+.image-container {
+ display: block;
+ margin: 0px auto;
+ text-align : center;
+  width: 100%;
+  height: auto;
+
+}
 
 
