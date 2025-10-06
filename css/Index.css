@@ -72,6 +72,26 @@ img.logo:hover {
     transform: scale(1.05); 
 }
 
+a.logoo {
+  display: inline-block;
+  outline: none;
+}
+
+img.logoo {
+  width: 100px;
+  height: auto;
+  top: 0px;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  vertical-align: left;
+  border: none;
+}
+
+img.logoo:hover {
+    transform: scale(1.05); 
+}
+
+
 .car {
   position: absolute;
   top: 0;
@@ -88,9 +108,11 @@ img.logo:hover {
 }
 
 
-.presentation {
+
+.pretext{ 
+  transition: transform 0.3s ease;  
   display: block;
-  width: 500px;
+  width: 1563px;
   margin: -4px auto 0; 
   text-align: center;
   font-family: "Dancing Script";
@@ -100,10 +122,13 @@ img.logo:hover {
   color: white;
   text-decoration: none;
   border-radius: 10px;
-  padding: 10px; 
+  padding: 10px;
   background: linear-gradient(90deg, #383838, #494949);
-  overflow: hidden;  
- 
+  overflow: hidden;
+}
+
+.pretext:hover {
+   transform: scale(1.02); 	
 }
 
 .pres {
@@ -132,14 +157,23 @@ img.logo:hover {
   z-index: -1;
 }
 
+.indexfin {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background: linear-gradient(80deg, #218496, #002d70);
+  z-index: -1;
+	
+}
 
-.image-container {
- display: block;
+
+ /*display: block;
  margin: 0px auto;
  text-align : center;
   width: 100%;
-  height: auto;
-
-}
-
+  height: auto; */
+  
+  
 

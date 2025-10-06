@@ -46,13 +46,11 @@
 			<a href="https://www.epid-vauban.fr/formations/option-theatre/" class="pretext"> Découvrez Option Thétre</a>
 		</div>
 		
-		
-		
 		<div class="indexfin"> 
-			<a href="https://www.lebateaufeu.com/"> Bateau feu</a>
-			<a href="https://www.epid-vauban.fr"> Groupe Epid / Vauban</a>
-			<a href="https://www.epid-vauban.fr/formations/option-theatre/"> Option théâtre Epid/vauban</a>
-			<a href="../html/legal.html"> Condition d'utilisation</a>
+			<a href="https://www.lebateaufeu.com/" class="pretext"> Bateau feu</a>
+			<a href="https://www.epid-vauban.fr" class="pretext"> Groupe Epid / Vauban</a>
+			<a href="https://www.epid-vauban.fr/formations/option-theatre/" class="pretext"> Option théâtre Epid/vauban</a>
+			<a href="../html/legal.html" class="pretext"> Condition d'utilisation</a>
 		</div>
 
 
