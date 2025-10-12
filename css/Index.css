@@ -56,12 +56,14 @@ body {
 a.logo {
   display: inline-block;
   outline: none;
+  padding: 10px 15px;
 }
 
 img.logo {
+  position: relative;
   width: 50px;
   height: auto;
-  top: 10px;
+  bottom: 10px;
   border-radius: 10px;
   transition: transform 0.3s ease;
   vertical-align: middle;
@@ -75,6 +77,7 @@ img.logo:hover {
 a.logoo {
   display: inline-block;
   outline: none;
+  padding: 10px 15px;
 }
 
 img.logoo {
@@ -113,7 +116,7 @@ img.logoo:hover {
   transition: transform 0.3s ease;  
   display: block;
   width: 1563px;
-  margin: -4px auto 0; 
+  margin: 40px auto 0; 
   text-align: center;
   font-family: "Dancing Script";
   font-size: 45px;
@@ -123,6 +126,7 @@ img.logoo:hover {
   text-decoration: none;
   border-radius: 10px;
   padding: 10px;
+  padding-top: 10px;
   background: linear-gradient(90deg, #383838, #494949);
   overflow: hidden;
 }
@@ -131,21 +135,6 @@ img.logoo:hover {
    transform: scale(1.02); 	
 }
 
-.pres {
-  text-align: center;
-  font-family: "Dancing Script";
-  font-style: italic, bold;
-}
-
-.calais {
-  position: absolute;
-  text-align: center;
-  top: 250px;
-  left: 600px;
-  width: 500px;
-  height: auto;
-  border: 20px;
-}
 
 .backgroundI {
   position: absolute;
@@ -157,40 +146,42 @@ img.logoo:hover {
   z-index: -1;
 }
 
-.indexfin {
-  position: absolute;
-  top: 75px;
-  left: 0;
-  right: 0;
-  bottom: 0; 
-  background: linear-gradient(80deg, #218496, #002d70);
-  z-index: -1;
-	
-}
 
 
 @keyframes slideshow__fade {
   0% {
     opacity: 0;
-    z-index: 2;
+    z-index: 2; 
   }
-  6.6666666667% {
-    opacity: 1;
+  
+  1.6666666667% { 
+    opacity: 1; 
   }
-  26.6666666667% {
-    opacity: 1;
+  
+  16.6666666667% { 
+    opacity: 1; 
   }
-  27.6666666667% {
-    opacity: 0;
-    z-index: 1;
+  
+  18.3333333333% { 
+    opacity: 0; 
   }
+  
+  18.4% { 
+    z-index: 1; 
+  }
+  
   100% {
-    opacity: 0;
+    opacity: 0; 
   }
 }
 
 .diaporama {
   position: relative;
+  border-radius: 15px;
+  width: 800px;
+  height: 600px; 
+  overflow: hidden; 
+  margin: 0px auto;
 }
 
 .diaporama img:not(:first-child) {
@@ -198,7 +189,7 @@ img.logoo:hover {
   left: 0;
   top: 0;
   margin: 0 auto;
-  animation-duration: 30s; /*On retrouve nos 30 secondes ici */
+  animation-duration: 30s; 
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-name: slideshow__fade;
@@ -208,24 +199,75 @@ img.logoo:hover {
 
 .diaporama img:nth-child(1) {
   animation-delay: 0s;
+  opacity: 1; 
+  z-index: 3; 
 }
-.diaporama img:nth-child(2) {
-  animation-delay: 6s;
+.diaporama img:nth-child(2) { 
+  animation-delay: 15s; 
 }
-.diaporama img:nth-child(3) {
-  animation-delay: 12s;
-}
-.diaporama img:nth-child(4) {
-  animation-delay: 18s;
-}
-.diaporama img:nth-child(5) {
-  animation-delay: 24s;
+.diaporama img:nth-child(3) { 
+  animation-delay: 15s; 
 }
 
 
+.indexfin {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  background: linear-gradient(80deg, #218496, #002d70);
+  z-index: -1;
 
-/* https://web-eau.net/blog/diaporama-css */
+}
 
-/* redimensionne les images */
-  
 
+.indexf {
+    background: #868686;
+    width: 2000px;
+    color: rgb(255, 0, 191);
+    height: 75px;
+    margin: 80px auto 0; 
+    text-align: center;
+    font-family: "Dancing Script";
+    margin-right: 10px;
+    font-size: 35px;
+
+
+}
+
+.indexf a {
+  padding: 10px 15px;
+  text-decoration: none; 
+  font-style: italic, bold;
+
+}
+
+.nom {
+  display: block;
+  font-family: 'Playwrite DE SAS', sans-serif;
+  font-size: 60px;
+  margin: 250px auto; 
+  background-image: linear-gradient(to right, #FF512F, #DD2476); 
+  -webkit-background-clip: text;
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent;
+  color: transparent; 
+  font-weight: bold;
+}
+
+.classe {
+  display: block;
+  position: relative;
+  bottom: 350px;
+  left: 1400px;
+  font-size: 40px;
+  font-family: 'Playwrite DE SAS', sans-serif;
+  background-image: linear-gradient(to right, #FF512F, #DD2476); 
+   background-clip: text; 
+  -webkit-text-fill-color: transparent;
+ -webkit-text-fill-color: transparent;
+  color: transparent; 
+  font-weight: bold;
+}
